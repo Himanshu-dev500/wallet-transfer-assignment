@@ -18,4 +18,5 @@ public record TransferRequest(
         @DecimalMin("0.01")
         BigDecimal amount
 ) {
+
 }

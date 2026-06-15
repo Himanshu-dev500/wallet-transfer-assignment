@@ -39,6 +39,7 @@ public class WalletController {
         return walletService.getWallet(walletId);
     }
 
+
     @GetMapping("/{walletId}/transfers")
     public List<TransferHistoryResponse> getTransferHistory(
             @PathVariable UUID walletId) {

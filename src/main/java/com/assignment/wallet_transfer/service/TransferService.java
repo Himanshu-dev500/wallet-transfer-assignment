@@ -9,6 +9,7 @@ import java.util.UUID;
 
 public interface TransferService {
 
+
     TransferResponse transfer(TransferRequest transferRequest, String idempotencyKey);
 
     List<TransferHistoryResponse> getWalletTransfers(UUID sourceWalletId);
