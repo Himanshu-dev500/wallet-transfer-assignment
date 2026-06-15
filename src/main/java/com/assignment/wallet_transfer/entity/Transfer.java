@@ -36,6 +36,7 @@ public class Transfer {
     @Column(nullable = false)
     private TransferStatus status;
 
+
     @Column(nullable = false, unique = true)
     private String idempotencyKey;
 

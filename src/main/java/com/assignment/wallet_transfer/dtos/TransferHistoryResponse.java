@@ -14,4 +14,5 @@ public record TransferHistoryResponse(
         TransferStatus status,
         LocalDateTime createdAt
 ) {
+
 }

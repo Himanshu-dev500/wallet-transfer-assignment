@@ -11,4 +11,5 @@ public interface WalletService {
     com.assignment.wallet_transfer.dtos.WalletResponse createWallet(CreateWalletRequest request);
 
     WalletResponse getWallet(UUID walletId);
+
 }

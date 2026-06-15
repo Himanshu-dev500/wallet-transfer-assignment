@@ -7,4 +7,5 @@ public record WalletResponse(
         UUID walletId,
         BigDecimal balance
 ) {
+
 }

@@ -7,4 +7,5 @@ public record CreateWalletRequest(
         @DecimalMin("0.0")
         BigDecimal balance
 ) {
+
 }

@@ -10,4 +10,5 @@ public record TransferResponse(
         TransferStatus status,
         BigDecimal amount
 ) {
+
 }
