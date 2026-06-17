@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/transfers")
 @Tag(name = "Wallet APIs", description = "Wallet transfer operations")
 @RequiredArgsConstructor
+
 public class TransferController {
 
     private final TransferService transferService;
